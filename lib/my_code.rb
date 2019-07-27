@@ -3,6 +3,6 @@ def map(array, blok)
   yield(array.map{blok})
 end
 
-map(array_source, blok){|inner|
+map(array_source, ){|inner|
   inner
 }
