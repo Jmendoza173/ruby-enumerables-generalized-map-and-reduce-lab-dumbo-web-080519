@@ -7,6 +7,5 @@ def map
   new
 end
 
-map(array_source, ){|inner|
-  inner
+map(array_source){
 }
