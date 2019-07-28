@@ -1,5 +1,5 @@
 # Your Code Here
-def map
+def map(array)
   new = []
  array.length.times { |index|
     new << yield(index)
