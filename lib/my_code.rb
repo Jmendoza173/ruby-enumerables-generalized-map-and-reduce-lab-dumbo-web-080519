@@ -1,7 +1,7 @@
 # Your Code Here
-def map(array)
+def map(source_array)
   new = []
- array.length.times { |index|
+ source_array.length.times { |index|
     new << yield(index)
  }
   new
