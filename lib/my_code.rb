@@ -6,6 +6,3 @@ def map
  }
   new
 end
-
-map(array_source){
-}
