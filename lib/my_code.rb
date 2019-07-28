@@ -8,7 +8,6 @@ def map(source_array)
 end
 
 def reduce(source_array)
-  new = 0
  source_array.length.times { |index|
     new = yield(source_array[index])
  }
